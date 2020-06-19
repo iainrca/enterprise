@@ -349,4 +349,7 @@ min-width: 100%;
 #searchBox .dropDown {
 	background-color:#fff;
 }
-
+/*hide search box*/
+#searchBox {
+	display:none;
+}
