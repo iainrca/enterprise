@@ -29,7 +29,7 @@ color: #ff5d1c;
 .menuLink a, .menuLink a:visited, .menuLink a:active, .loginLink a, .menuActive a, #lpMainLink {
 color: #fff;	
 }
-.menuLink a:hover, .loginLink a:hover, #lpMainLink {
+.menuLink a:hover, .loginLink a:hover, #lpMainLink, .quicksearch_display_button:hover {
 color: #ff5d1c;	
 }
 
@@ -353,3 +353,13 @@ min-width: 100%;
 #searchBox {
 	display:none;
 }
+/*center the New Search Button back to Summon*/
+.quicksearch_display_button {
+    float: none;
+    padding: 4px 8px 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Benton Sans Light", "BentonSans-Light", "Helvetica Neue", Arial, Helvetica, Sans-Serif!important;
+}
+
+
