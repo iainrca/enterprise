@@ -362,4 +362,8 @@ min-width: 100%;
     font-family: "Benton Sans Light", "BentonSans-Light", "Helvetica Neue", Arial, Helvetica, Sans-Serif!important;
 }
 
+/*hide searchboxwrapper as no longer using a search box in enterprise */
 
+#searchBoxWrapper {
+	display:none;
+}
