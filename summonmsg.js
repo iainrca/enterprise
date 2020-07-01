@@ -5,6 +5,10 @@ var msg = "Try the new <a href='https://rca.summon.serialssolutions.com' target=
 var todayDate = new Date();
 
 if (todayDate >= startDate && todayDate <= endDate) {
-   var wrappedmsg = '<div id="systemMsg" class="systemMsg" style="padding:5px; border:1px solid #3333CC; text-align:center; background:#DFDFFF; width:100%">' + msg + '<span style="float:right; text-align:right;"></span></div>';
+   var wrappedmsg = '<div id="systemMsg" class="systemMsg" style="padding:5px; border:1px solid #3333CC; text-align:center; background:#DFDFFF; width:100%">' + msg + '<span style="float:right; text-align:right;"><a onClick="javascript:hideSystemMsg();">[hide]</a></span></div>';
    jQuery('#content').prepend(wrappedmsg);
+}
+
+function hideSystemMsg() {
+  jQuery('#systemMsg').hide();
 }
