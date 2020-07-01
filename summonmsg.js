@@ -5,6 +5,6 @@ var msg = "Try the new <a href='https://rca.summon.serialssolutions.com' target=
 var todayDate = new Date();
 
 if (todayDate >= startDate && todayDate <= endDate) {
-   var wrappedmsg = '<div id="systemMsg" class="systemMsg" style="padding:5px; border:1px solid #3333CC; text-align:center; background:#DFDFFF; width:100%">' + msg + '<span style="float:right; text-align:right;"></span></div>';
+   var wrappedmsg = '<div id="systemMsg" class="systemMsg" style="padding:5px; text-align:center; background:#fff; width:100%; font-size:large">' + msg + '<span style="float:right; text-align:right;"></span></div>';
    jQuery('#content').prepend(wrappedmsg);
 }
