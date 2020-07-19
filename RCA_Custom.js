@@ -8,7 +8,7 @@
 
 function summonback() {
 const summonlink = "<a target='_self' href='https://rca.summon.serialssolutions.com/search'>New Search</a>";
-document.getElementById('Quicksearch_New Search').innerHTML = summonlink;
+document.getElementById('Quicksearch_NEWSEARCH').innerHTML = summonlink;
 }
 window.onload=summonback;
 
