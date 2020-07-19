@@ -367,3 +367,11 @@ min-width: 100%;
 #searchBoxWrapper {
 	display:none;
 }
+
+/* amend size of new image*/
+
+.logo_container img {
+    margin-top: 15px;
+    max-height: 32px;
+    width: auto;
+}
