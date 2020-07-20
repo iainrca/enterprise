@@ -1,5 +1,5 @@
 var startDate = new Date("July 01, 2020 00:01");
-var endDate = new Date("July 31, 2020 23:59");
+var endDate = new Date("August 31, 2020 23:59");
 var msg = "Try the new <a href='https://rca.summon.serialssolutions.com' target='_blank'>RCA Library Search</a> to find all our resources in one place";
 
 var todayDate = new Date();
