@@ -314,10 +314,10 @@ min-width: 100%;
 
 /***********************Login Box Borders*******************/
 .user_name_input{
-	border:solid;
+	border:double;
 }
 .password_input{
-	border:solid;
+	border:double;
 }
 
 .resultsToolbar_wrapper #copacLink {
