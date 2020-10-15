@@ -1,6 +1,6 @@
 var startDate = new Date("July 01, 2020 00:01");
 var endDate = new Date("October 31, 2020 23:59");
-var msg = "Try the new <a href='https://rca.summon.serialssolutions.com' target='_self'>RCA Library Search</a> to find all our resources in one place";
+var msg = "<a href='https://moodle.rca.ac.uk/course/view.php?id=9&section=4' target='_blank'>Find out how to Reserve & Collect from the Neutral Zone, Kensington</a>";
 
 var todayDate = new Date();
 
