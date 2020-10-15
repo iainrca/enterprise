@@ -5,6 +5,6 @@ var msg = "<a href='https://moodle.rca.ac.uk/course/view.php?id=9&section=4' tar
 var todayDate = new Date();
 
 if (todayDate >= startDate && todayDate <= endDate) {
-   var wrappedmsg = '<div id="systemMsg" class="systemMsg" style="padding:5px; text-align:center; background:#fff; width:100%; font-size:large">' + msg + '<span style="float:right; text-align:right;"></span></div>';
+   var wrappedmsg = '<div id="systemMsg" class="systemMsg" style="padding:5px; text-align:center; background:#fff; width:100%; font-size:large; color:#eb5e2b">' + msg + '<span style="float:right; text-align:right;"></span></div>';
    jQuery('#content').prepend(wrappedmsg);
 }
