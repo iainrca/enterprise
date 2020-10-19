@@ -22,7 +22,7 @@ color: #000000;
 text-decoration: none;
 }
 a:hover, a[href^="mailto"]:hover{
-color: #ff5d1c; 
+color: #ff5d1c !important; 
 }
 
 /* menu links color property: color */
