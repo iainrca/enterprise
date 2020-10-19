@@ -382,3 +382,7 @@ min-width: 100%;
 .displayElementLabel {
     color: black;
 }
+
+table.sortable thead  {
+    color: black;
+}
