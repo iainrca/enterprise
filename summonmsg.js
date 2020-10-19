@@ -1,6 +1,6 @@
 var startDate = new Date("July 01, 2020 00:01");
 var endDate = new Date("November 30, 2020 23:59");
-var msg = "<a href='https://moodle.rca.ac.uk/course/view.php?id=9&section=4' target='_blank' style="color:#0066cc">Find out how to Reserve & Collect from the Neutral Zone, Kensington</a>";
+var msg = "<a href='https://moodle.rca.ac.uk/course/view.php?id=9&section=4' target='_blank' style='color:#0066cc'>Find out how to Reserve & Collect from the Neutral Zone, Kensington</a>";
 
 var todayDate = new Date();
 
