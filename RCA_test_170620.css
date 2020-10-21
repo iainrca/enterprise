@@ -338,9 +338,9 @@ min-width: 100%;
 
 /*******Hide Renew Button during COVID-19*********/
 
-.checkoutsButtons {
+/*.checkoutsButtons {
 	display:none;
-}
+}*/
 /*twitter widget font*/
 ..timeline-Widget{
 	font-family:"Benton Sans Light", "BentonSans-Light", "Helvetica Neue", Arial, Helvetica, Sans-Serif!important;
