@@ -10,6 +10,7 @@ font-family: "Benton Sans Light", "BentonSans-Light", "Helvetica Neue", Arial, H
 /* Increase header height if using 125px or 150px - default is 135px - this now controls the position of the content */
 .header {
 height: 100px;
+	background-color:#000;
 }
 
 .headerWrapper {
