@@ -389,11 +389,3 @@ min-width: 100%;
 table.sortable thead  {
     color: black;
 }
-.dropDownButton {
-    background: url(/client/images/action-icons/dropdown.png) no-repeat;
-    height: 25px;
-    width: 185px;
-    font: 13px Arial, Helvetica, sans-serif;
-    padding-left: 15px;
-    padding-top: 1px;
-}
