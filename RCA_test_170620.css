@@ -386,3 +386,11 @@ min-width: 100%;
 table.sortable thead  {
     color: black;
 }
+
+/*******Hide Location although it is needed for shelfmap*****/
+.detailItemsTable_LOCATION {
+	display:none;
+}
+.detailItemsTable_LOCATION {
+	display:none;
+}
