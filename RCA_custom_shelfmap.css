@@ -302,3 +302,11 @@ min-width: 100%;
 .checkoutsButtons {
 	display:none;
 }
+
+/*******Hide Location although it is needed for shelfmap*****/
+.detailItemsTable_LOCATION {
+	display:none;
+}
+.detailItemsTable_LOCATION {
+	display:none;
+}
