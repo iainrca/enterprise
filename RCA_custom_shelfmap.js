@@ -21,9 +21,9 @@ jQuery(document).ready(function() {
   //var Loc = $('div.detailItemsTable_LOCATION');  
   //if(validSMLocs.indexOf(Loc) !== -1) {
      jQuery('tr.detailItemsTableRow td.detailItemsTable_CALLNUMBER').each(function () {
-       console.log($(this));
+       console.log(jQuery(this));
        //var Loc = $(this).siblings('td.detailItemsTable_LOCATION').text();
-       var Loc = $(this).parent().find('td.detailItemsTable_LOCATION').text();       
+       var Loc = jQuery(this).parent().find('td.detailItemsTable_LOCATION').text();       
        console.log(Loc);
        jQuery( "<div id='shelfmap'><a href='https://app.shelfmap.co.uk/fp/fp?icode=44RCA&id=" + bibid + "' target='_blank' class='ShelfMap_anchor' title='Show item on ShelfMap'><img src='https://iainrca.github.io/summon/v2.svg' alt='ShelMap drop pin' height = '75px' width='75px'/>View Shelf Location</a></div></br>").insertAfter( $(this) );
      });
