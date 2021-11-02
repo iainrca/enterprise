@@ -18,7 +18,7 @@ jQuery(document).ready(function() {
   var validSMLocs=["1:ONSHELF","1:REFERENCE","1:QR","1:PAMPHLET","1:PER_CURR","1:OVERSIZE","1:EAP","1:DYSLEXIA","1:FUELRCA","1:CRLCC"];
   var pathname = window.location.pathname;
   var bibid = pathname.match(/SD_ILS:.*[0-9]/);
-  var Loc = $('div.detailItemsTable_LOCATION');  
+  //var Loc = $('div.detailItemsTable_LOCATION');  
   //if(validSMLocs.indexOf(Loc) !== -1) {
      jQuery('tr.detailItemsTableRow td.detailItemsTable_CALLNUMBER').each(function () {
        console.log($(this));
