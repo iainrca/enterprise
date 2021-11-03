@@ -311,9 +311,3 @@ min-width: 100%;
 .detailItemsTable_LOCATION {
 	display:none;
 }
-
-/**Align all table row elements to the top to accomodate the shelfmap logo**/
-
-.detailItemsTable_ITYPE .detailItemsTable_BARCODE .detailItemsTable_CALLNUMBER .detailItemsTable_SD_ITEM_STATUS {
-	vertical-align:top;
-}
