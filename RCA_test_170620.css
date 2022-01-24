@@ -363,6 +363,12 @@ min-width: 100%;
     font-size: 16px;
     font-family: "Benton Sans Light", "BentonSans-Light", "Helvetica Neue", Arial, Helvetica, Sans-Serif!important;
 }
+
+.quicksearchBar {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Benton Sans Light", "BentonSans-Light", "Helvetica Neue", Arial, Helvetica, Sans-Serif!important;
+}
 /*hide searchboxwrapper as no longer using a search box in enterprise */
 
 #searchBoxWrapper {
