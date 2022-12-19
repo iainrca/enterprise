@@ -402,6 +402,6 @@ table.sortable thead  {
 }
 /******Hide Reservation option from Action Drop Down list as it is now available as a button due to Enterprise upgrade****/
 
-ul li:last-child {
+/*ul li:last-child {
    display:none;
-}
+}*/
