@@ -311,3 +311,8 @@ min-width: 100%;
 .detailItemsTable_LOCATION {
 	display:none;
 }
+
+/*******Make Elctronic Access Link more visible*****/
+
+.displayElementWrapper .displayElementLabel.ELECTRONIC_ACCESS+a {font-size: 14px; font-weight: 700;}
+.displayElementWrapper .displayElementLabel.ELECTRONIC_ACCESS+a {font-size: 14px; font-weight: 700;}
