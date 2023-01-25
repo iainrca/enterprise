@@ -405,3 +405,7 @@ table.sortable thead  {
 /*ul li:last-child {
    display:none;
 }*/
+
+/*** Make Online Access Link more prominent***/
+.displayElementWrapper .displayElementText.ELECTRONIC_ACCESS a {font-size: 14px; font-weight: 700;}
+.displayElementWrapper .displayElementLabel.ELECTRONIC_ACCESS+a {font-size: 14px; font-weight: 700;}
