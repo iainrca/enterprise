@@ -407,6 +407,6 @@ table.sortable thead  {
 }*/
 
 /*** Make Online Access Link more prominent***/
-.displayElementWrapper .displayElementText.ELECTRONIC_ACCESS a {font-size: 14px; font-weight: 700; color: #3366CC!important}
-.displayElementWrapper .displayElementLabel.ELECTRONIC_ACCESS+a {font-size: 14px; font-weight: 700; color: #3366CC!important}
+.displayElementWrapper .displayElementText.ELECTRONIC_ACCESS a {font-size: 16px; font-weight: 700; color: #3366CC!important}
+.displayElementWrapper .displayElementLabel.ELECTRONIC_ACCESS+a {font-size: 16px; font-weight: 700; color: #3366CC!important}
 
