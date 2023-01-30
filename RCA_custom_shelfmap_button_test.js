@@ -12,7 +12,7 @@ document.getElementById('Quicksearch_NEWSEARCH').innerHTML = summonlink;
 }
 window.onload=summonback;
 
- $J(".ELECTRONIC_ACCESS a:contains('hoopla')").wrap("<strong></strong>").text('CLICK HERE TO ACCESS ON HOOPLA');
+ $J(".ELECTRONIC_ACCESS a:contains('overdrive')").wrap("<strong></strong>").text('CLICK HERE TO ACCESS ON Libby');
  $J('.unbound_searchresult.enterprise a, .ELECTRONIC_ACCESS a').addClass('button');
  $J('.ELECTRONIC_ACCESS a').addClass('btn-info');
 
