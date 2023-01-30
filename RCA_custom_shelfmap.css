@@ -316,3 +316,24 @@ min-width: 100%;
 
 .displayElementWrapper .displayElementLabel.ELECTRONIC_ACCESS+a {font-size: 14px; font-weight: 700;}
 .displayElementWrapper .displayElementLabel.ELECTRONIC_ACCESS+a {font-size: 14px; font-weight: 700;}
+
+
+/* bib links display as buttons */
+
+div.displayElementText table a,
+div.displayElementText a:visited {
+    background: url("http://ppll.ent.sirsi.net/custom/web/alert-overlay.png") repeat-x scroll 0% 0% rgb(72, 125, 81);
+    display: block;
+    padding: .4em 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    margin: 2px; }
+div.displayElementText a:hover {
+    background-color:#97B99E;
+    text-decoration: none; }
+
