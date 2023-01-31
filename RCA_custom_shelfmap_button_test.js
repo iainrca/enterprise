@@ -12,13 +12,6 @@ document.getElementById('Quicksearch_NEWSEARCH').innerHTML = summonlink;
 }
 window.onload=summonback;
 
-function overdrivebutton() {
- document.getElementById('ELECTRONIC_ACCESS+a:contains('overdrive')').wrap("<strong></strong>").text('CLICK HERE TO ACCESS ON Libby');
- document.getElementById('.unbound_searchresult.enterprise a, .ELECTRONIC_ACCESS a').addClass('button');
- document.getElementById('.ELECTRONIC_ACCESS+a').addClass('btn-info');
-}
-window.onloan=overdrive;
-
 
 // ShelfMap
 jQuery(document).ready(function() {
