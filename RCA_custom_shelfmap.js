@@ -12,12 +12,6 @@ document.getElementById('Quicksearch_NEWSEARCH').innerHTML = summonlink;
 }
 window.onload=summonback;
 
-//Hide Fines Tab from My Account as we don't issue fines
-
-function removeFinesPaymentHistoryAccordion() {
-jQuery('#finesAccordion H3:last').hide();
-}
-
 // ShelfMap
 jQuery(document).ready(function() {
   
