@@ -250,9 +250,9 @@ display:none;
 .displayElementText.GEOGRAPHIC_TERM {
 display: block;
 }
-.displayElementText.ADDED_AUTHOR {
-display: block;
-}
+/*.displayElementText.ADDED_AUTHOR { */
+/*display: block;*/
+/*}*/
 .displayElementText.ADDED_CORPORATE_AUTHOR {
 display: block;
 }
